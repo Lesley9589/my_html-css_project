@@ -1,0 +1,46 @@
+.bg {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  filter: blur(10px);
+  top: 0%;
+  left: 0%;
+}
+.thankyou {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.signup5 {
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+}
+.homelink {
+  color: white;
+  text-decoration: none;
+}
+.homelink:hover {
+  color: black;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: black;
+  }
+  .bg {
+    visibility: hidden;
+  }
+  .thankyou {
+    width: 100%;
+  }
+}

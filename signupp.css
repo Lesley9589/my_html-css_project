@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.signup1 {
+  background-color: #fffb00af;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+.signup5 {
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+.slider {
+  left: 0%;
+  top: 0%;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  filter: blur(10px);
+  height: 100%;
+}
+input[type="text"],
+input[type="password"] {
+  width: 48.3%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+p {
+  font-size: x-large;
+}
+.homelink {
+  color: white;
+  text-decoration: none;
+}
+.homelink:hover {
+  color: black;
+}
+.thankyoup {
+  color: white;
+  text-decoration: none;
+}
+.thankyoup:hover {
+  color: black;
+}
+@media only screen and (max-width: 1200px) {
+  .signup5 {
+    width: 40%;
+  }
+  .signup1 {
+    width: 35%;
+  }
+}

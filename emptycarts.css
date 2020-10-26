@@ -1,0 +1,32 @@
+.signup5 {
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+.homelink {
+  color: white;
+  text-decoration: none;
+}
+.homelink:hover {
+  color: black;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 20%;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+body {
+  background-color: black;
+}
+@media only screen and (max-width: 1200px) {
+  .signup5 {
+    width: 35%;
+  }
+}

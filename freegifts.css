@@ -1,0 +1,40 @@
+.bg {
+  position: fixed;
+  z-index: -1;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  filter: blur(10px);
+}
+.gift {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.404);
+  padding: 50px;
+  display: flex;
+  text-align: center;
+  margin-left: 32.5%;
+  border-radius: 14px 14px 14px 14px;
+}
+.signup5 {
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+.homelink {
+  color: white;
+  text-decoration: none;
+}
+.homelink:hover {
+  color: black;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+p {
+  text-align: center;
+  color: white;
+}
